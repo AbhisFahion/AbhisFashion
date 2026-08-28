@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AbhisFashion — premium streetwear T-shirts.">
+  <title>AbhisFashion — Streetwear</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement">FREE SHIPPING • NEW STREETWEAR DROPS • ORDER ON WHATSAPP</div>
+
+  <header class="header">
+    <a class="logo" href="#home">ABHIS<span>FASHION</span></a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#shop">Shop</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="nav-cta" href="https://wa.me/918619690803?text=Hi%20AbhisFashion%2C%20I%20want%20to%20shop%20T-shirts." target="_blank">WhatsApp ↗</a>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">ABHISFASHION / STREETWEAR</p>
+        <h1>WEAR<br><em>YOUR</em><br>ATTITUDE.</h1>
+        <p class="hero-text">Statement T-shirts built for everyday street style. Discover bold graphics, relaxed fits and standout pieces.</p>
+        <div class="hero-buttons">
+          <a class="btn primary" href="#shop">SHOP THE DROP</a>
+          <a class="btn ghost" href="https://wa.me/918619690803?text=Hi%20AbhisFashion%2C%20please%20share%20your%20latest%20T-shirt%20collection." target="_blank">ASK ON WHATSAPP</a>
+        </div>
+        <div class="price-note">₹400 — ₹1,200</div>
+      </div>
+      <div class="hero-image-wrap">
+        <img src="images/hero.jpg" alt="AbhisFashion streetwear T-shirt">
+        <div class="hero-tag">NEW<br>DROP<br>2026</div>
+      </div>
+    </section>
+
+    <section class="marquee"><div>ABHISFASHION • STREETWEAR • ABHISFASHION • STREETWEAR • ABHISFASHION • STREETWEAR •</div></section>
+
+    <section class="section" id="shop">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">CURATED FOR YOU</p>
+          <h2>THE LATEST DROP</h2>
+        </div>
+        <p class="section-sub">Premium-looking styles without the premium attitude.</p>
+      </div>
+
+      <div class="products">
+        <article class="product">
+          <div class="product-img"><img src="images/sunflower-poster.jpg" alt="Sunflower Exquisite T-shirt"><span>NEW</span></div>
+          <div class="product-info"><h3>Exquisite — Sunflower</h3><p>Graphic Streetwear</p><strong>₹899</strong></div>
+          <button onclick="order('Exquisite — Sunflower', 899)">ORDER ON WHATSAPP</button>
+        </article>
+
+        <article class="product">
+          <div class="product-img"><img src="images/heavenly-bond-back.jpg" alt="Heavenly Bond T-shirt back"><span>HOT</span></div>
+          <div class="product-info"><h3>Heavenly Bond — Black</h3><p>Oversized Graphic</p><strong>₹999</strong></div>
+          <button onclick="order('Heavenly Bond — Black', 999)">ORDER ON WHATSAPP</button>
+        </article>
+
+        <article class="product">
+          <div class="product-img"><img src="images/heavenly-bond-front.jpg" alt="Heavenly Bond T-shirt front"><span>BESTSELLER</span></div>
+          <div class="product-info"><h3>Heavenly Bond — Front</h3><p>Washed Black Tee</p><strong>₹999</strong></div>
+          <button onclick="order('Heavenly Bond — Front', 999)">ORDER ON WHATSAPP</button>
+        </article>
+
+        <article class="product">
+          <div class="product-img"><img src="images/gambit.jpg" alt="Gambit T-shirt"><span>NEW</span></div>
+          <div class="product-info"><h3>Gambit</h3><p>Graphic Streetwear</p><strong>₹799</strong></div>
+          <button onclick="order('Gambit', 799)">ORDER ON WHATSAPP</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="feature">
+      <div class="feature-image"><img src="images/heavenly-bond-front.jpg" alt="Heavenly Bond T-shirt"></div>
+      <div class="feature-copy">
+        <p class="eyebrow">MADE TO STAND OUT</p>
+        <h2>YOUR FIT.<br>YOUR RULES.</h2>
+        <p>From washed blacks to bold graphic prints, AbhisFashion is all about pieces that make a statement without trying too hard.</p>
+        <a class="text-link" href="https://wa.me/918619690803?text=Hi%20AbhisFashion%2C%20I%20want%20to%20know%20about%20sizes%20and%20availability." target="_blank">CHECK SIZES & AVAILABILITY →</a>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <p class="eyebrow">ABOUT ABHISFASHION</p>
+      <h2>STREETWEAR<br>WITH CHARACTER.</h2>
+      <p>AbhisFashion brings bold, graphic and contemporary T-shirts for people who like their everyday style a little different.</p>
+    </section>
+
+    <section class="contact" id="contact">
+      <div>
+        <p class="eyebrow">READY TO ORDER?</p>
+        <h2>LET'S GET<br>YOU THE FIT.</h2>
+      </div>
+      <div class="contact-card">
+        <p>WhatsApp</p>
+        <a href="https://wa.me/918619690803" target="_blank">+91 86196 90803 ↗</a>
+        <p>Instagram</p>
+        <a href="https://instagram.com/sunflower_2469" target="_blank">@sunflower_2469 ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>© 2026 ABHISFASHION. ALL RIGHTS RESERVED.</footer>
+  <script src="script.js"></script>
+</body>
+</html>
